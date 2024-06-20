@@ -1,0 +1,21 @@
+.table {
+  width: 100vw;
+  max-width: 1400px;
+  border: 1px solid #bdbdbd;
+  padding: 20px 50px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.table__data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table__data > div {
+  flex: 1;
+  text-align: center;
+}
